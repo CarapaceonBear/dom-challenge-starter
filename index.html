@@ -13,31 +13,31 @@
     />
 
     <!-- stylesheet -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style/style.css" />
     <title>Nology Conference</title>
   </head>
 
   <body>
     <main>
       <!-- welcome/ title -->
-      <section>
-        <h1>Welcome to Nology Conference!</h1>
-        <p>Amazing talks from amazing people.</p>
+      <section class="heading">
+        <h1 class="heading__title">Welcome to Nology Conference!</h1>
+        <p class="heading__subtitle">Amazing talks from amazing people.</p>
       </section>
 
       <!-- register your interest -->
-      <section>
-        <h2>Register your interest!</h2>
-        <form>
-          <div>
-            <label>Name</label>
-            <input />
+      <section class="register">
+        <h2 class="register__title">Register your interest!</h2>
+        <form id="form">
+          <div class="register__username active">
+            <label for="username-input">Name</label>
+            <input id="username-input" type="text"/>
           </div>
-          <div>
-            <label>Email</label>
-            <input />
-          </div>
-          <button>Send</button>
+          <div class="register__email active">
+            <label for="email-input">Email</label>
+            <input id="email-input" type="email" />
+          </div class=register__button>
+          <button id="submit-button">Send</button>
         </form>
       </section>
     </main>

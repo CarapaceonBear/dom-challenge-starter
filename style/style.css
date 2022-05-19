@@ -1,0 +1,31 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.valid {
+  border: 3px solid green;
+}
+
+.invalid {
+  border: 3px solid red;
+}/*# sourceMappingURL=style.css.map */
